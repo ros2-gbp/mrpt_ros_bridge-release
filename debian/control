@@ -1,0 +1,12 @@
+Source: ros-humble-mrpt-libros-bridge
+Section: misc
+Priority: optional
+Maintainer: Jose-Luis Blanco-Claraco <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-mrpt-libapps, ros-humble-nav-msgs, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-msgs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-ros-workspace
+Homepage: https://www.mrpt.org/
+Standards-Version: 3.9.2
+
+Package: ros-humble-mrpt-libros-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-mrpt-libapps, ros-humble-ros-workspace
+Description: Mobile Robot Programming Toolkit (MRPT) ros2bridge C++ library

@@ -1,3 +1,28 @@
+## mrpt_ros_bridge (kilted) - 3.0.1-1
+
+The packages in the `mrpt_ros_bridge` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -y -r kilted mrpt_ros_bridge` on `Fri, 07 Nov 2025 11:43:42 -0000`
+
+These packages were released:
+- `mrpt_libros_bridge`
+- `rosbag2rawlog`
+
+Version of package(s) in repository `mrpt_ros_bridge`:
+
+- upstream repository: https://github.com/MRPT/mrpt_ros_bridge.git
+- release repository: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
+- rosdistro version: `3.0.0-1`
+- old version: `3.0.0-1`
+- new version: `3.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_ros_bridge (jazzy) - 3.0.1-1
 
 The packages in the `mrpt_ros_bridge` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -y -r jazzy mrpt_ros_bridge` on `Fri, 07 Nov 2025 11:41:54 -0000`

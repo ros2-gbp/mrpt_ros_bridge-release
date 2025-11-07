@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rosbag2rawlog</name>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   <description>CLI tool to transform between rosbags and rawlogs.</description>
 
   <maintainer email="markus.bader@tuwien.ac.at">Markus Bader</maintainer>
@@ -17,7 +17,7 @@
   <!-- DEPS -->
   <depend>cli11</depend>
   <depend>cv_bridge</depend>
-  <depend>mrpt_libapps</depend>
+  <depend>mrpt_libmaps</depend>
   <depend>mrpt_libros_bridge</depend>
   <depend>mrpt_msgs</depend>
   <depend>nav_msgs</depend>

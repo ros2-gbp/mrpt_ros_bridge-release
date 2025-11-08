@@ -2,6 +2,9 @@
 Changelog for package rosbag2rawlog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.2 (2025-11-08)
+------------------
+
 3.0.1 (2025-11-07)
 ------------------
 * Fix package.xml so packages downstream install the required dependencies

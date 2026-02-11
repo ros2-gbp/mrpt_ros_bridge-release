@@ -1,0 +1,12 @@
+Source: ros-jazzy-mrpt-libros-bridge
+Section: misc
+Priority: optional
+Maintainer: Jose-Luis Blanco-Claraco <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-mrpt-libmaps, ros-jazzy-mrpt-libobs, ros-jazzy-nav-msgs, ros-jazzy-ros-environment, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-stereo-msgs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-ros-workspace
+Homepage: https://www.mrpt.org/
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-mrpt-libros-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-mrpt-libmaps, ros-jazzy-mrpt-libobs, ros-jazzy-nav-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-stereo-msgs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-ros-workspace
+Description: Mobile Robot Programming Toolkit (MRPT) ros2bridge C++ library

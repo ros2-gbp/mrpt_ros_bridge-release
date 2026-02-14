@@ -3,7 +3,7 @@
 <package format="3">
   <name>mrpt_libros_bridge</name>
   <!-- Before updating version number, read [MRPT_ROOT]/version_prefix.txt first -->
-  <version>3.3.0</version>
+  <version>3.4.0</version>
   <description>Mobile Robot Programming Toolkit (MRPT) ros2bridge C++ library</description>
 
   <maintainer email="joseluisblancoc@gmail.com">Jose-Luis Blanco-Claraco</maintainer>
@@ -32,6 +32,8 @@
   <depend>stereo_msgs</depend>
   <depend>tf2_geometry_msgs</depend>
   <depend>tf2</depend>
+
+  <depend>rosbag2_cpp</depend> <!-- Optional -->
 
   <doc_depend>doxygen</doc_depend>
 

@@ -2,6 +2,9 @@
 Changelog for package rosbag2rawlog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.5.0 (2026-02-17)
+------------------
+
 3.4.0 (2026-02-14)
 ------------------
 * Merge pull request `#3 <https://github.com/MRPT/mrpt_ros_bridge/issues/3>`_ from MRPT/feat/refactor-rosbag2

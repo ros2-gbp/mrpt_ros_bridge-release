@@ -97,6 +97,11 @@ bool mrpt::ros2bridge::fromROS(const nav_msgs::msg::OccupancyGrid& src, COccupan
   for (unsigned int h = 0; h < src.info.height; h++)
   {
     COccupancyGridMap2D::cellType* pDes = des.getRow(static_cast<int>(h));
+    // A missing row means the created grid does not match the ROS map extents:
+    if (!pDes)
+    {
+      return false;
+    }
     const int8_t* pSrc = &src.data[static_cast<size_t>(h) * src.info.width];
     for (unsigned int w = 0; w < src.info.width; w++)
     {

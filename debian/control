@@ -1,0 +1,12 @@
+Source: ros-rolling-rawlog2rosbag
+Section: misc
+Priority: optional
+Maintainer: "Jose Luis Blanco-Claraco" <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libcli11-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ament-cmake-lint-cmake <!nocheck>, ros-rolling-ament-cmake-xmllint <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-geometry-msgs, ros-rolling-mrpt-libros-bridge, ros-rolling-mrpt-maps (>= 3.0.0), ros-rolling-mrpt-obs (>= 3.0.0), ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rosbag2-cpp, ros-rolling-rosbag2-storage, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-tf2-msgs, ros-rolling-ros-workspace
+Homepage: https://github.com/mrpt/mrpt_ros_bridge
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rawlog2rosbag
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcli11-dev, ros-rolling-geometry-msgs, ros-rolling-mrpt-libros-bridge, ros-rolling-mrpt-maps (>= 3.0.0), ros-rolling-mrpt-obs (>= 3.0.0), ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rosbag2-cpp, ros-rolling-rosbag2-storage, ros-rolling-rosbag2-storage-default-plugins, ros-rolling-rosbag2-storage-mcap, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-tf2-msgs, ros-rolling-ros-workspace
+Description: CLI tool to convert MRPT rawlog datasets into ROS 2 bags (mcap, sqlite3).

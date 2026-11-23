@@ -1,0 +1,8 @@
+ros-rolling-rawlog2rosbag (4.2.0-1trixie) trixie; urgency=high
+
+  * New CLI tool: rawlog2rosbag, to convert MRPT rawlog datasets into ROS 2 bags (mcap or sqlite3), with sensor poses as /tf_static and optional TUM ground truth trajectory
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- "Jose Luis Blanco-Claraco" <joseluisblancoc@gmail.com>  Sun, 22 Nov 2026 23:00:00 -0000
+
+

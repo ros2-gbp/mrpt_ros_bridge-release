@@ -1,0 +1,12 @@
+Source: ros-lyrical-rawlog2rosbag
+Section: misc
+Priority: optional
+Maintainer: "Jose Luis Blanco-Claraco" <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libcli11-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-mrpt-libros-bridge, ros-lyrical-mrpt-maps (>= 3.0.0), ros-lyrical-mrpt-obs (>= 3.0.0), ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2-msgs, ros-lyrical-ros-workspace
+Homepage: https://github.com/mrpt/mrpt_ros_bridge
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rawlog2rosbag
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcli11-dev, ros-lyrical-geometry-msgs, ros-lyrical-mrpt-libros-bridge, ros-lyrical-mrpt-maps (>= 3.0.0), ros-lyrical-mrpt-obs (>= 3.0.0), ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage, ros-lyrical-rosbag2-storage-default-plugins, ros-lyrical-rosbag2-storage-mcap, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2-msgs, ros-lyrical-ros-workspace
+Description: CLI tool to convert MRPT rawlog datasets into ROS 2 bags (mcap, sqlite3).

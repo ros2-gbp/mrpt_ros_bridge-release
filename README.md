@@ -1,3 +1,29 @@
+## mrpt_ros_bridge (humble) - 4.2.0-1
+
+The packages in the `mrpt_ros_bridge` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble --no-web mrpt_ros_bridge` on `Mon, 23 Nov 2026 12:45:06 -0000`
+
+These packages were released:
+- `mrpt_libros_bridge`
+- `rawlog2rosbag`
+- `rosbag2rawlog`
+
+Version of package(s) in repository `mrpt_ros_bridge`:
+
+- upstream repository: https://github.com/MRPT/mrpt_ros_bridge.git
+- release repository: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
+- rosdistro version: `4.1.0-1`
+- old version: `4.1.0-1`
+- new version: `4.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_ros_bridge (rolling) - 4.1.0-1
 
 The packages in the `mrpt_ros_bridge` repository were released into the `rolling` distro by running `/home/jlblanco/code/bloom-venv/bin/bloom-release --rosdistro rolling mrpt_ros_bridge` on `Sun, 01 Nov 2026 19:06:37 -0000`

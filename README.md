@@ -1,3 +1,29 @@
+## mrpt_ros_bridge (lyrical) - 4.2.0-1
+
+The packages in the `mrpt_ros_bridge` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical --no-web mrpt_ros_bridge` on `Mon, 23 Nov 2026 12:48:29 -0000`
+
+These packages were released:
+- `mrpt_libros_bridge`
+- `rawlog2rosbag`
+- `rosbag2rawlog`
+
+Version of package(s) in repository `mrpt_ros_bridge`:
+
+- upstream repository: https://github.com/MRPT/mrpt_ros_bridge.git
+- release repository: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
+- rosdistro version: `4.1.0-1`
+- old version: `4.1.0-1`
+- new version: `4.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_ros_bridge (jazzy) - 4.2.0-1
 
 The packages in the `mrpt_ros_bridge` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy --no-web mrpt_ros_bridge` on `Mon, 23 Nov 2026 12:46:56 -0000`

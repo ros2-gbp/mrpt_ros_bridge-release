@@ -1,0 +1,12 @@
+Source: ros-jazzy-rawlog2rosbag
+Section: misc
+Priority: optional
+Maintainer: "Jose Luis Blanco-Claraco" <joseluisblancoc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libcli11-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-cmake-xmllint <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-mrpt-libros-bridge, ros-jazzy-mrpt-maps (>= 3.0.0), ros-jazzy-mrpt-obs (>= 3.0.0), ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rosbag2-cpp, ros-jazzy-rosbag2-storage, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/mrpt/mrpt_ros_bridge
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rawlog2rosbag
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcli11-dev, ros-jazzy-geometry-msgs, ros-jazzy-mrpt-libros-bridge, ros-jazzy-mrpt-maps (>= 3.0.0), ros-jazzy-mrpt-obs (>= 3.0.0), ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rosbag2-cpp, ros-jazzy-rosbag2-storage, ros-jazzy-rosbag2-storage-default-plugins, ros-jazzy-rosbag2-storage-mcap, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Description: CLI tool to convert MRPT rawlog datasets into ROS 2 bags (mcap, sqlite3).
